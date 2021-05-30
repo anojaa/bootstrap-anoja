@@ -7,32 +7,115 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Signin Template for Bootstrap</title>
+    <title>Web Anojaa</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
 
-  <body class="text-center container">
-    <form class="form-signin">
-      <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="radio" value="remember-me"> Remember me
-        </label>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:orange">
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" style="font-weight:400" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-dark" style="font-weight:400"  href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-      <button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
-    </form>
+    </nav>
+    <!-- content -->
+    <div class="container">
+      <div class="mt-5 text-center">
+        <img src="profile.png" class="rounded-circle" alt="">
+      </div>
+      <div class="row mt-5 mb-5">
+        <div class="col-md-6" style="font-size: 15px;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam tortor, lacinia a mi at, lacinia lobortis dolor. Donec lorem nisi, pellentesque quis elit non, dignissim pretium odio. Fusce non convallis enim. Ut iaculis sem id turpis pellentesque molestie. In sit amet lacus sed velit consequat pulvinar. Morbi sit amet sollicitudin orci. Nullam dignissim diam id massa varius facilisis in sit amet erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+        <div class="col-md-6" style="font-size:15px;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam tortor, lacinia a mi at, lacinia lobortis dolor. Donec lorem nisi, pellentesque quis elit non, dignissim pretium odio. Fusce non convallis enim. Ut iaculis sem id turpis pellentesque molestie. In sit amet lacus sed velit consequat pulvinar. Morbi sit amet sollicitudin orci. Nullam dignissim diam id massa varius facilisis in sit amet erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 1 -->
+    <div class="card-group container">
+      <div class="card mr-5" style="font-size:15px;">
+        <img class="card-img-top" src="landscape.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Portofolio</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui ante, accumsan ut malesuada rutrum, malesuada varius mauris. Curabitur est elit, tincidunt id orci vitae, mollis maximus nulla. Maecenas et mauris quis est volutpat luctus et vitae justo.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mr-5" style="font-size:15px;">
+        <img class="card-img-top" src="landscape2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Portofolio</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui ante, accumsan ut malesuada rutrum, malesuada varius mauris. Curabitur est elit, tincidunt id orci vitae, mollis maximus nulla. Maecenas et mauris quis est volutpat luctus et vitae justo.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mr-5" style="font-size:15px;">
+        <img class="card-img-top" src="landscape3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Portofolio</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui ante, accumsan ut malesuada rutrum, malesuada varius mauris. Curabitur est elit, tincidunt id orci vitae, mollis maximus nulla. Maecenas et mauris quis est volutpat luctus et vitae justo.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="card-group container mt-5 mb-5">
+      <div class="card mr-5">
+        <img class="card-img-top" src="landscape4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Portofolio</h5>
+          <p class="card-text" style="font-size:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui ante, accumsan ut malesuada rutrum, malesuada varius mauris. Curabitur est elit, tincidunt id orci vitae, mollis maximus nulla. Maecenas et mauris quis est volutpat luctus et vitae justo. </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mr-5">
+        <img class="card-img-top" src="landscape5.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Portofolio</h5>
+          <p class="card-text" style="font-size:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui ante, accumsan ut malesuada rutrum, malesuada varius mauris. Curabitur est elit, tincidunt id orci vitae, mollis maximus nulla. Maecenas et mauris quis est volutpat luctus et vitae justo. </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mr-5">
+        <img class="card-img-top" src="landscape6.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Portofolio</h5>
+          <p class="card-text" style="font-size:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui ante, accumsan ut malesuada rutrum, malesuada varius mauris. Curabitur est elit, tincidunt id orci vitae, mollis maximus nulla. Maecenas et mauris quis est volutpat luctus et vitae justo. </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="navbar" style="background-color:orange">
+      <div class="container justify-content-center">
+        <p class="pt-2">My Web Profile</p>
+      </div>
+    </div>
   </body>
 </html>
